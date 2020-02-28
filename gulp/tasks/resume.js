@@ -4,7 +4,7 @@ const
     exec = require('child_process').exec;
 
 gulp.task('resume', function (cb) {
-    let command = 'resume serve --silent';
+    let command = 'resume serve';
 
     exec(command, function(err, stdout, stderr) {
         console.log(stdout);

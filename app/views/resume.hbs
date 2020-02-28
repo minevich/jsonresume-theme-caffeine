@@ -1,9 +1,18 @@
 <!doctype html>
 <html>
 	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-20322298-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-20322298-2');
+	</script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
-	<title>{{#resume.basics}}{{name}}{{/resume.basics}}</title>
+	<title>{{#resume.basics}}{{name}} Resume{{/resume.basics}}</title>
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<style>
 		{{{css}}}
